@@ -15,22 +15,7 @@
     private $mail_port = 
     private $send_grid_api_key = 
    
-   //Users table
-    private $users_db_table = "users";
-    
-    //deactivated users table
-    private $deactivated_users_table = "deactivated_users";
-  
-    //Accounts instant user payments table 
-    private $accounts_instant_payment_table = "instant_payment_table_for_accounts";
-    
-    public $user_image_destination = "C:/wamp/www/PHP/HOUSE-SHARE-PROJECT/PHP format/demo/demo-new/user_images/";
-    
-    
-    
-    
-    
-    
+
     
    function query($query_statement){
         $mysqli_query = mysqli_query($this->Link,$query_statement);
